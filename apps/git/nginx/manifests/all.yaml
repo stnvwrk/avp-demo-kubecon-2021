@@ -23,7 +23,7 @@ metadata:
   annotations:
 
     # Our special annotation to tell AVP where the secrets are
-    avp.kubernetes.io/path: "nonprod-argocd-vault-devops/argo-vault/data/testing-folder/devops-test"
+    avp.kubernetes.io/path: "argo-vault/data/testing-folder/devops-test"
 stringData:  
   MY_SECRET: <testingVar>
 ---

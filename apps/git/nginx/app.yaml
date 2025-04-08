@@ -14,4 +14,4 @@ spec:
 
     # We're telling Argo CD to use our plugin to deploy the manifests
     plugin:
-      name: argocd-vault
+      name: argocd-vault-plugin
